@@ -5,6 +5,7 @@ language:
 rmd_files: [
   "index.Rmd",
   "setup.Rmd",
-  "chapitre_3.Rmd"]
+  "chapitre_3.Rmd",
+  "chapitre_4.Rmd"]
 delete_merged_file: true 
 output_dir: "docs"
