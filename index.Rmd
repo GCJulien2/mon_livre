@@ -13,8 +13,5 @@ github-repo: openscapes/series
 
 ---
 
-# Dasboard 1 {#welcome}
-
-Bienvenue sur le TP Dashboard
 
 

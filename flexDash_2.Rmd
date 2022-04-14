@@ -14,30 +14,30 @@ library(tidyverse)
 
 ```{r}
 source(file="C:/Users/Jl/Desktop/TP/code_Dash1.R")
-```
+
 # https://stackoverflow.com/questions/67025813/flexdashboard-ggplot-width-to-fill-cell-width
 
+```
 
-Row
------------------------------------------------------------------------
+## Analyse par continent
 
 ### Evolution de la population par continent
 
 
 
-```{r, fig.width= 18}
+```{r}
 
 ggplot(join_product_continent ) + 
   aes(x = annee, y = food2, color = region , group= region) +
   geom_line()+
   theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1) )+
-  scale_x_discrete( breaks= seq(1950,2020)  )
+  scale_x_discrete( breaks= seq(1950,2020,5)  )
 
 
 ```
 
-Row 
------------------------------------------------------------------------
+
+
 
 ### Nourriture par continent
 
@@ -67,3 +67,6 @@ ggplot(join_energy_countrie) +
 
 ```
 
+## Lien du Dashboard 3 en ligne 
+
+lien : https://cgvisu.shinyapps.io/Dashboard_3/
