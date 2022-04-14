@@ -26,7 +26,7 @@ source(file="C:/Users/Jl/Desktop/TP/code_Dash1.R")
 ```
 # Analyse du monde
 
-### Evolution total de la population  dans le monde 
+### Evolution total de la population/monde 
 
 ```{r}
 
@@ -42,7 +42,7 @@ ggplot(filter(wpp2019_pop, Region_Subregion_Country_area == "WORLD") ) +
 
 -----------------------------------------------------------------------
 
-### Evolution total de la production alimentaire dans le monde 
+### Evolution total de la production alimentaire/monde 
 
 ```{r}
 
