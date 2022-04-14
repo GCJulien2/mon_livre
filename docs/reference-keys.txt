@@ -1,8 +1,8 @@
 analyse-du-monde
-evolution-total-de-la-populationmonde
-evolution-total-de-la-production-alimentairemonde
-energie-renouvelable
-combustible
+evolution-total-de-la-population-par-an-dans-le-monde
+evolution-total-de-la-production-alimentaire-par-an-dans-le-monde
+energie-renouvelable-par-an-dans-le-monde
+combustible-par-an-dans-le-monde
 analyse-par-continent
 evolution-de-la-population-par-continent
 nourriture-par-continent
