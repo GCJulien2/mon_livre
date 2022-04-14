@@ -19,11 +19,11 @@ source(file="C:/Users/Jl/Desktop/TP/code_Dash1.R")
 
 ```
 
-## Analyse par continent
+# Analyse par continent
 
 ### Evolution de la population par continent
 
-
+Graphique de la population par continent
 
 ```{r}
 

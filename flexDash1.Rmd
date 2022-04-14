@@ -24,7 +24,7 @@ library(tidyverse)
 source(file="C:/Users/Jl/Desktop/TP/code_Dash1.R")
 
 ```
-## Analyse du monde
+# Analyse du monde
 
 ### Evolution total de la population  dans le monde 
 
