@@ -1,11 +1,11 @@
 book_filename: "series"
 language:
   ui:
-    chapter_name: "Chapter "
+    chapter_name: "Dashboard"
 rmd_files: [
   "index.Rmd",
-  "setup.Rmd",
-  "chapitre_3.Rmd",
-  "chapitre_4.Rmd"]
+  "flexDash1.Rmd",
+  "flexDash_2.Rmd"]
 delete_merged_file: true 
 output_dir: "docs"
+

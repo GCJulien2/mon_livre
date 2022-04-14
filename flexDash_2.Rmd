@@ -1,0 +1,69 @@
+---
+title: "Dashboard continent"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: fill
+---
+
+```{r include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+
+```
+
+```{r}
+source(file="C:/Users/Jl/Desktop/TP/code_Dash1.R")
+```
+# https://stackoverflow.com/questions/67025813/flexdashboard-ggplot-width-to-fill-cell-width
+
+
+Row
+-----------------------------------------------------------------------
+
+### Evolution de la population par continent
+
+
+
+```{r, fig.width= 18}
+
+ggplot(join_product_continent ) + 
+  aes(x = annee, y = food2, color = region , group= region) +
+  geom_line()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1) )+
+  scale_x_discrete( breaks= seq(1950,2020)  )
+
+
+```
+
+Row 
+-----------------------------------------------------------------------
+
+### Nourriture par continent
+
+```{r}
+
+ggplot(pp_continent) + 
+  aes(x = annee, y = population, color = Region_Subregion ,group=Region_Subregion) +
+  geom_area(aes(fill= Region_Subregion))+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1) )+
+  scale_x_discrete( breaks= seq(1950,2020,10)  )
+
+
+```
+
+### Energie par continent
+
+```{r}
+
+
+ggplot(join_energy_countrie) + 
+  aes(x = year, y = consommation, color = type_energie , fill = type_energie) +
+  geom_line()+
+  geom_area(aes(fill=type_energie)) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1) )+
+  facet_grid(~region)+
+  scale_x_continuous( breaks= seq(1900,2020,25)  )
+
+```
+
