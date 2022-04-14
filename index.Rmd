@@ -1,5 +1,5 @@
 ---
-title: "Book Un"
+title: "Dashboard TP"
 author: "Julien-G"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
