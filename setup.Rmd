@@ -11,7 +11,10 @@
 
 https://github.com/GCJulien2/mon_livre.git
 
+https://github.com/GCJulien2/dash.git
+
 7. In the Console, type `usethis::use_git()` and say Yes to the two prompts. This will restart R and give you a new Git tab in the upper right pane.
+
 8. Now, click on the Terminal tab next to the Console tab. 
 
 9. Type `git remote add CHOIX_NOM 
