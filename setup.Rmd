@@ -17,6 +17,8 @@ https://github.com/GCJulien2/mon_livre.git
 9. Type `git remote add CHOIX_NOM 
 git remote add mon_livre https://github.com/GCJulien2/mon_livre.git
 
+# https://github.com/GCJulien2/dash.git
+
 
 10. Type:  git push --set-upstream mon_livre master
 
