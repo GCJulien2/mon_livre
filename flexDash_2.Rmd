@@ -41,6 +41,8 @@ ggplot(join_product_continent ) +
 
 ### Nourriture par continent
 
+Graphique de la nourriture par continent
+
 ```{r}
 
 ggplot(pp_continent) + 
