@@ -1,7 +1,7 @@
 book_filename: "series"
 language:
   ui:
-    chapter_name: "Dashboard"
+    chapter_name: "Dashboard1"
 rmd_files: [
   "index.Rmd",
   "flexDash1.Rmd",

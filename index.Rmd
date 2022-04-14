@@ -12,6 +12,3 @@ github-repo: openscapes/series
 
 
 ---
-
-
-
